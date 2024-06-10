@@ -84,7 +84,7 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("/images/img_barber_1.jpg");
+    background-image: url("../images/img_barber_1.jpg");
     width: 100%;
     height: inherit;
     background-repeat: no-repeat;
