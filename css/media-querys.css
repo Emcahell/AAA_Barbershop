@@ -132,7 +132,8 @@
         flex-wrap: wrap;
         width: 80%;
         height: auto;
-        padding: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -166,13 +167,22 @@
 }
 
 @media (max-width:400px){
+    .background-image{
+        position: relative;
+        top: -110px;
+    }
     .background-image::after{
-        height: 69%;
+        height: 70%;
     }
 
     .local-name{
         margin-top: 50px;
         font-size: 26px;
+    }
+
+    .inicio{
+        top: -90px;
+        margin-top: -20px;
     }
 }
 
@@ -180,9 +190,20 @@
     .background-image::after{
         height: 65%;
     }
+    .background-image{
+        margin-top: -30px;
+    }
 }
 
 @media (max-width: 374px){
+    .background-image{
+        top: -220px;
+    }
+
+    .inicio{
+        top: -1px;
+    }
+
     .gallery{
         width: 90%;
     }
