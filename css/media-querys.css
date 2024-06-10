@@ -22,13 +22,17 @@
     }
 
     .inicio{
-        top: -150px;
-        height: 700px;
+        top: 250px;
+        height: 300px;
+    }
+
+    .background-image{
+        top: -230px;
     }
 
     .background-image::after{
         position: absolute;
-        top: 0;
+        top: 77px;
         content: "";
         display: block;
         width: 100%;
@@ -43,6 +47,7 @@
     .servicios{
         margin-top: 270px;
         margin-bottom: 50px;
+        z-index: 900;
     }
 
     .titulo{
@@ -181,8 +186,29 @@
     }
 
     .inicio{
-        top: -90px;
+        top: 120px;
         margin-top: -20px;
+    }
+}
+
+@media (max-width: 374px){
+    .background-image{
+        top: -230px;
+    }
+    .background-image::after{
+        top: 65px;
+    }
+
+    .inicio{
+        top: 220px;
+        height: 300px;
+    }
+
+    .gallery{
+        width: 90%;
+    }
+    .gallery img{
+        width: 120px;
     }
 }
 
@@ -192,22 +218,5 @@
     }
     .background-image{
         margin-top: -30px;
-    }
-}
-
-@media (max-width: 374px){
-    .background-image{
-        top: -220px;
-    }
-
-    .inicio{
-        top: -1px;
-    }
-
-    .gallery{
-        width: 90%;
-    }
-    .gallery img{
-        width: 120px;
     }
 }
