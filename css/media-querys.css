@@ -32,11 +32,11 @@
 
     .background-image::after{
         position: absolute;
-        top: 77px;
+        top: 0;
         content: "";
         display: block;
         width: 100%;
-        height: 75%;
+        height: 100%;
     }
 
     .line{
@@ -177,7 +177,7 @@
         top: -110px;
     }
     .background-image::after{
-        height: 70%;
+        height: 100%;
     }
 
     .local-name{
@@ -196,7 +196,7 @@
         top: -230px;
     }
     .background-image::after{
-        top: 65px;
+        top: 0;
     }
 
     .inicio{
@@ -214,7 +214,7 @@
 
 @media (max-width:300px){
     .background-image::after{
-        height: 65%;
+        height: 100%;
     }
     .background-image{
         margin-top: -30px;
